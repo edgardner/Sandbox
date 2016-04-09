@@ -1,10 +1,10 @@
 from twython import Twython, TwythonError
 import time
 #Api info goes here
-APP_KEY = 'XxsMzvjnwZ1Wdh72d2h9qu23W'
-APP_SECRET = 'shAUdVtxEZ6O7fkBTtsX5ahbg5Cf1P1sRcBEN9KSNDKIweeWbY'
-OAUTH_TOKEN = '424257195-1tN7TeuwixQaC06k6rr1vZd3200XgTwGN13Re84I'
-OAUTH_TOKEN_SECRET = '7zGlLbxx8LHa2JwNnvYBgXmmrGxiJTStVY8njIA4eQnFe'
+APP_KEY = 'REDACTED'
+APP_SECRET = 'REDACTED'
+OAUTH_TOKEN = 'REDACTED'
+OAUTH_TOKEN_SECRET = 'REDACTED'
 #Use Twython to set up api access to twitter
 api = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
