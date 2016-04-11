@@ -18,6 +18,6 @@ Used to track primes lower than a given input bound.  Implements a prime sieve a
 Tests FindPrimes.java sieving engine.
 
 #Debugging_test - Python
-TweetBot's problems were that it did no input string validation and didn't respect Twitters duplicate tweet rules.  To correct the exceptions from Twython I implemented a check that the first character of the line was a letter and that the string wasn't longer than 140 characters.  I implemented an array to hold previous tweets, this way TweetBot can check to see if it already sent those tweet's and thus ignore that status update. 
+TweetBot's problems were that it did no input string validation and didn't respect Twitters duplicate tweet rules.  To correct the exceptions from Twython I implemented logic to check that the first character of the line is alphanumeric and that the string isn't longer than 140 characters.  I implemented an array to hold previous tweets, this way TweetBot can check to see if it already sent those tweet's and thus ignore that status update. 
 
 
